@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Ecommerce app</title>
+    <meta name="author" description=" Gurudayal">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+    
+</head>
+<body>
+     <header class="heading d-flex grow-shrink-basis align-center fixed top-0 left-0">
+    <div class="heading-title-icon d-flex 
+     align-center">
+        <h1 class="heading-title">
+            <a class="link" href="/">Flash Shop</a>
+        </h1>
+    </div>
+    <div class="search-box-container relative">
+        <input class="search-box-input" placeholder="Search Products">
+        <span class="material-symbols-outlined absolute top-0 left-0">
+            search
+        </span>
+    </div>
+    <nav class="navigation">
+        <ul class="list-non-bullet d-flex align-center gap">
+            <li class="list-item-inline">
+                <a href="/" class="link cursor">
+               <span class="nav-icon material-symbols-outlined">favorite</span>
+               </a>
+            </li>
+            <li class="list-item-inline">
+                <a href="./cart.html" class="link cursor">
+                    <span class="nav-icon material-symbols-outlined">
+                    shopping_cart
+                    </span>
+               </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+     <div class="products-page d-flex wrap gap" id="products"></div>
+
+     
+<script type="module" src="./index.js"></script>
+</body>
+</html>
