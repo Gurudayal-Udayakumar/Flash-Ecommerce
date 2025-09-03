@@ -1,4 +1,4 @@
-const createHorizontalProductCard = (products, parentContainer) => {
+export const createHorizontalProductCard = (products, parentElement) => {
     for(let product of products){
         const cardContainer = document.createElement("div");
         cardContainer.classList.add("card-horizontal", "d-flex", "shadow");
@@ -84,5 +84,50 @@ const createHorizontalProductCard = (products, parentContainer) => {
         quantityContainer.appendChild(quantity);
         cardDetailsContainer.appendChild(quantityContainer);
 
+
+        //CTA Button
+        const ctaButton = document.createElement("div");
+        ctaButton.classList.add("cta-btn" ,"d-flex", "gap")
+        ctaButton.classList.add("cta-btn");
+        const removeBtn = document.createElement("button");
+        removeBtn.classList.add(
+            "button", 
+            "hori-btn",
+            "btn-primary", 
+            "btn-icon", 
+            "d-flex", 
+            "align-center", 
+            "justify-center", 
+            "gap", 
+            "cursor", 
+            "btn-margin"
+        );
+        removeBtn.setAttribute("data-id" ,product._id);
+        removeBtn.innerText = "Remove";
+
+        const saveBtn = document.createElement("button");
+        saveBtn.classList.add(
+            "button", 
+            "hori-btn",
+            "btn-primary", 
+            "btn-icon", 
+            "d-flex", 
+            "align-center", 
+            "justify-center", 
+            "gap", 
+            "cursor", 
+            "btn-margin"
+        );
+        saveBtn.setAttribute("data-id" ,product._id);
+        saveBtn.innerText = "Save to Whishlist";
+
+        ctaButton.appendChild(removeBtn);
+        ctaButton.appendChild(saveBtn);
+
+        cardDetailsContainer.appendChild(ctaButton);
+        cardContainer.appendChild(cardDetailsContainer)
+        parentElement.appendChild(cardContainer)
+
+        
     }
 }

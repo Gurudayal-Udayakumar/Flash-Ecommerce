@@ -80,7 +80,18 @@ export const createProductCard = (products, parentElement, findProductInCart, pa
         const ctaButton = document.createElement("div");
         ctaButton.classList.add("cta-btn");
         const cartButton = document.createElement("button");
-        cartButton.classList.add("button", "btn-primary", "btn-icon", "cart-btn", "d-flex", "align-center", "justify-center", "gap", "cursor", "btn-margin");
+        cartButton.classList.add(
+            "button", 
+            "btn-primary", 
+            "btn-icon", 
+            "cart-btn", 
+            "d-flex", 
+            "align-center", 
+            "justify-center", 
+            "gap", 
+            "cursor", 
+            "btn-margin"
+        );
         cartButton.setAttribute("data-id" ,product._id);
     
     
