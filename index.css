@@ -62,3 +62,17 @@
 .gap-sm{
     gap: 8px;
 }
+
+.final-price{
+    width: 25rem;
+    background-color: var(--background-color);
+    align-self: flex-start;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+
+.main{
+    padding-top: 8rem;
+}
