@@ -62,10 +62,19 @@
 .gap-sm{
     gap: 8px;
 }
+.main{
+
+    padding-top: 8rem;
+}
+
+.heading-2{
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+}
 
 .final-price{
     width: 25rem;
-    background-color: var(--background-color);
+    background-color: var(--card-background);
     align-self: flex-start;
 }
 
