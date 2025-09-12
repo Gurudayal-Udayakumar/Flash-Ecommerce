@@ -38,3 +38,17 @@ totalAmount.innerText = priceAfterDiscount-discountedAmount+100;
 
 //createProductCard(cart, cartContainer, findProductInCart, "cart");
 createHorizontalProductCard(cart, cartContainer, findProductInCart, "cart");
+
+document.addEventListener("DOMContentLoaded", () => {
+  const placeOrderBtn = document.querySelector(".btn-primary");
+
+  if (placeOrderBtn) {
+    placeOrderBtn.addEventListener("click", () => {
+      // clear cart
+      localStorage.removeItem("cart");
+
+      // redirect to order confirmation page
+      window.location.href = "order.html";
+    });
+  }
+});

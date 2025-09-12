@@ -22,7 +22,7 @@ export const products = [
         brand: "Highlander",
         newPrice: 1500,
         oldPrice: 2200,
-        discount: 32,
+        discount: 30,
         size: "M",
         idealFor: "M",
         rating: 4.0
@@ -35,10 +35,10 @@ export const products = [
         brand: "Nike",
         newPrice: 2999,
         oldPrice: 4500,
-        discount: 33,
+        discount: 40,
         size: "42",
         idealFor: "M",
-        rating: 4.5
+        rating: 3.5
     },
     {
         _id: "004",
@@ -48,10 +48,10 @@ export const products = [
         brand: "Fossil",
         newPrice: 5500,
         oldPrice: 7000,
-        discount: 21,
+        discount: 40,
         size: "-",
         idealFor: "U",
-        rating: 4.7
+        rating: 3.7
     },
     {
         _id: "005",
@@ -61,10 +61,10 @@ export const products = [
         brand: "Wildcraft",
         newPrice: 2200,
         oldPrice: 3000,
-        discount: 27,
+        discount: 50,
         size: "-",
         idealFor: "U",
-        rating: 4.3
+        rating: 2.3
     },
     {
         _id: "006",
@@ -74,10 +74,10 @@ export const products = [
         brand: "Ray-Ban",
         newPrice: 1999,
         oldPrice: 2800,
-        discount: 28,
+        discount: 50,
         size: "-",
         idealFor: "U",
-        rating: 4.6
+        rating: 2.6
     },
     {
         _id: "007",
@@ -87,10 +87,10 @@ export const products = [
         brand: "OnePlus",
         newPrice: 35000,
         oldPrice: 42000,
-        discount: 16,
+        discount: 50,
         size: "-",
         idealFor: "U",
-        rating: 4.8
+        rating: 1.8
     },
     {
         _id: "008",
@@ -100,10 +100,10 @@ export const products = [
         brand: "Sony",
         newPrice: 4999,
         oldPrice: 6500,
-        discount: 23,
+        discount: 50,
         size: "-",
         idealFor: "U",
-        rating: 4.4
+        rating: 1.4
     },
     {
         _id: "009",
@@ -113,10 +113,10 @@ export const products = [
         brand: "Dell",
         newPrice: 55000,
         oldPrice: 65000,
-        discount: 15,
+        discount: 50,
         size: "-",
         idealFor: "U",
-        rating: 4.6
+        rating: 3.6
     },
     {
         _id: "10",
@@ -126,9 +126,9 @@ export const products = [
         brand: "Zara",
         newPrice: 7999,
         oldPrice: 10000,
-        discount: 20,
+        discount: 30,
         size: "L",
         idealFor: "M",
-        rating: 4.7
+        rating: 3.7
     }
 ];

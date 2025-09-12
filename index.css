@@ -85,3 +85,28 @@
 .main{
     padding-top: 8rem;
 }
+
+.side-bar{
+    width: 20rem;
+    position: fixed;
+}
+
+.product-container{
+    margin-left: 21rem;
+}
+.filter-container{
+    margin-left: 1rem 0;
+}
+
+.heading-3{
+    padding: 10px 0;
+}
+
+.label{
+    font-size: 1.25rem;
+}
+
+.radio{
+    width: 1.25rem;
+    height: 1.25rem;
+}
